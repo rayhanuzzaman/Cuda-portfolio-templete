@@ -10,15 +10,15 @@ $(document).ready(function(){
      });
     //  ACTIVE LINK
 
-    $("nav ul li a").click(function(){
-      $("nav ul li a").removeClass("active");
-      $(this).addClass("active");
-    });
+    // $("nav ul li a").click(function(){
+    //   $("nav ul li a").removeClass("active");
+    //   $(this).addClass("active");
+    // });
 
-    $("nav a img.logo").click(function(){
-      $("nav ul li a").removeClass("active");
-      $("nav ul li:first-child a").addClass("active");
-    });
+    // $("nav a img.logo").click(function(){
+    //   $("nav ul li a").removeClass("active");
+    //   $("nav ul li:first-child a").addClass("active");
+    // });
     
 
 
